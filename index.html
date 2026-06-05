@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id ="nameForm" method ="get" enctype ="multipart/form-data">
+        <div>
+            <label for = "firstname">Vorname:</label>
+            <input type = "text" id = "firstname" name = "firstname" required />
+        </div>
+
+        <div>
+            <label for ="lastname">Nachname:</label>
+            <input type = "text" id = "lastname" name = "lastname" required/>
+            </div>
+    
+            <div>
+                <input type ="submit" id="submitBtn" />
+                <input type ="reset" />
+            </div>
+
+    </form>
+
+    <!--
+    l?firstname=a&lastname=b
+
+    ?: Start von Formulardaten
+    key1 = value1
+    &: Trennzeichen für nächstes key value pair (zuordnungen)
+    -->
+
+<script src="formcatcher.js"></script>
+
+</body>
+</html>
